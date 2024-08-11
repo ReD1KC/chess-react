@@ -18,7 +18,7 @@ function App() {
 
     return (
         <>
-            <BoardComponent />
+            <BoardComponent board={board} setBoard={setBoard} />
         </>
     );
 }
